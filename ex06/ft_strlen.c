@@ -5,5 +5,6 @@ int		ft_strlen(char *str){
 	while(*(str+ref)){
 		ref++;
 	}
+
 	return ref;
 }
