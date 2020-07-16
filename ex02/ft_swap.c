@@ -3,5 +3,5 @@ void 	ft_swap(int *a, int *b){
 	c = *a;
 
 	*a = *b;
-	*b = tempnum;
+	*b = c;
 }
